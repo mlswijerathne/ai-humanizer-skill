@@ -1,0 +1,45 @@
+{
+  "name": "ai-humanizer-skill",
+  "version": "2.1.0",
+  "description": "A Claude Code / Agent skill that rewrites AI-generated text to read naturally and survive AI detectors (GPTZero, Originality, Turnitin, Copyleaks, Pangram, DetectGPT, Binoculars). Includes a before/after detection-risk scorer.",
+  "bin": {
+    "ai-humanizer-skill": "bin/cli.js"
+  },
+  "files": [
+    "bin/",
+    "skill/",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node bin/cli.js --help"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "claude-skill",
+    "ai-humanizer",
+    "humanizer",
+    "ai-detection",
+    "gptzero",
+    "originality-ai",
+    "turnitin",
+    "anti-detection",
+    "perplexity",
+    "burstiness",
+    "writing"
+  ],
+  "author": "mlswijerathne",
+  "license": "MIT",
+  "homepage": "https://github.com/mlswijerathne/ai-humanizer-skill#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlswijerathne/ai-humanizer-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mlswijerathne/ai-humanizer-skill/issues"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
