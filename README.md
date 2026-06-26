@@ -1,5 +1,10 @@
 # ai-humanizer-skill
 
+[![npm version](https://img.shields.io/npm/v/ai-humanizer-skill.svg)](https://www.npmjs.com/package/ai-humanizer-skill)
+[![npm downloads](https://img.shields.io/npm/dm/ai-humanizer-skill.svg)](https://www.npmjs.com/package/ai-humanizer-skill)
+[![license](https://img.shields.io/npm/l/ai-humanizer-skill.svg)](./LICENSE)
+[![install](https://img.shields.io/badge/install-npx%20ai--humanizer--skill-blue)](https://www.npmjs.com/package/ai-humanizer-skill)
+
 A [Claude](https://claude.com/claude-code) skill that rewrites AI-generated text so it reads as natural human writing **and** holds up against AI detectors. It goes beyond surface "signs of AI writing" and targets the signals detectors actually measure, then ships a scorer that estimates a before/after detection-risk number.
 
 > **Honest disclaimer.** AI detectors are unreliable and uncalibrated. A Stanford study (Liang et al., 2023) found they flagged **61% of non-native-English essays** as AI. There is a proven impossibility result: as models approach human text, the best detector approaches a coin flip. This tool is for legitimate writing improvement — polishing AI-assisted drafts and helping people who are falsely flagged. No method beats every detector, and trained classifiers (Pangram, GPTZero 3.2b) may be unbeatable by tooling. Use it honestly.
