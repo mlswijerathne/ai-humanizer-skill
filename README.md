@@ -29,6 +29,17 @@ npx ai-humanizer-skill uninstall    # remove it
 npx ai-humanizer-skill --help
 ```
 
+### Use on Claude.ai (web / desktop app)
+
+`npx` installs into **Claude Code** only. To use the skill in the **Claude.ai web app**, upload it as a ZIP:
+
+1. Download [`ai-humanizer.zip`](https://github.com/mlswijerathne/ai-humanizer-skill/releases/latest/download/ai-humanizer.zip) from the latest release.
+2. In Claude.ai, go to **Settings → Customize → Skills** (also labeled "Capabilities" on some plans).
+3. Click **+ Create skill** and upload `ai-humanizer.zip`.
+4. Toggle the skill **on**, then ask Claude to humanize text.
+
+**Requirements:** custom skill uploads need a **Pro / Max / Team / Enterprise** plan with **code execution enabled** (Settings → Capabilities). Code execution also lets the bundled `score.py` run in the web sandbox, so before/after scoring works there too. Uploaded skills are private to your account.
+
 ## What it does
 
 AI detectors split into two families that need opposite tactics. The skill handles both:
